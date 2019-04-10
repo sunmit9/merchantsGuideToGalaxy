@@ -10,6 +10,7 @@ The numbers used for intergalactic transactions follows similar convention to th
  
 Roman numerals are based on seven symbols:
  
+```
 Symbol  - Value
 
 I     -   1
@@ -25,6 +26,7 @@ C     -   100
 D     -   500
 
 M     -   1000
+```
 
 
 Numbers are formed by combining symbols together and adding the values. For example, MMVI is 1000 + 1000 + 5 + 1 = 2006. Generally, symbols are placed in order of value, starting with the largest values. When smaller values precede larger values, the smaller values are subtracted from the larger values, and the result is added to the total. For example MCMXLIV = 1000 + (1000 − 100) + (50 − 10) + (5 − 1) = 1944.
@@ -41,45 +43,35 @@ Input to your program consists of lines of text detailing your notes on the conv
  
 You are expected to handle invalid queries appropriately.
  
-Test input:
+### Test input:
+```
 glob is I
-
 prok is V
-
 pish is X
-
 tegj is L
-
 glob glob Silver is 34 Credits
-
 glob prok Gold is 57800 Credits
-
 pish pish Iron is 3910 Credits
 
 how much is pish tegj glob glob ?
-
 how many Credits is glob prok Silver ?
-
 how many Credits is glob prok Gold ?
-
 how many Credits is glob prok Iron ?
-
 how much wood could a woodchuck chuck if a woodchuck could chuck wood ?
+```
 
 
-Test Output:
+### Test Output:
 
+```
 pish tegj glob glob is 42
-
 glob prok Silver is 68 Credits
-
 glob prok Gold is 57800 Credits
-
 glob prok Iron is 782 Credits
-
 I have no idea what you are talking about
+```
 
 
-Running the code:
+### Running the code:
 
 The Trade.java file has the main method to run the program. The inputFile is the file with a list of inputs for the program.
